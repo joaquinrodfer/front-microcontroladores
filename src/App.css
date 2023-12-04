@@ -1,0 +1,44 @@
+#root {
+  height: 100vh;
+  max-width: 1280px;
+  margin: 0 auto;
+  
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2%;
+
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+section.data {
+  max-height: 60%;
+  min-width: 80vw;
+  margin-bottom: 16px;
+  padding-right: 16px;
+  overflow-y: scroll;
+}
+
+footer {
+  background-color: #111;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding-top: 2rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+}

@@ -1,0 +1,20 @@
+.real-time > section {
+    background-color: #444;
+  padding: 0.5rem 0;
+  margin: 1rem 0;
+
+  border-radius: 16px;
+}
+
+.real-time > section > h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.real-time > section > p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+}
+
