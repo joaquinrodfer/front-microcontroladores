@@ -16,7 +16,8 @@ function App() {
   return (
     <>
       <header>
-        <h1>Control Almazara</h1>
+        <h1>Cooperativa El Olivo Seco</h1>
+        <h2>Monitorización de la producción de aceite</h2>
         <div className="buttons">
           <DataButton active={lastData} data='Tiempo Real' onClick={() => setLastData(true)} />
           <DataButton active={!lastData} data='Histórico' onClick={() => setLastData(false)} />
