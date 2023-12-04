@@ -3,6 +3,9 @@
   margin: 0 auto;
   
   text-align: center;
+
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -18,6 +21,17 @@ h2 {
 
 header {
   margin-bottom: 1rem;
+}
+
+header > hr {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+hr {
+  width: 90%;
+  margin: 0 auto;
 }
 
 section.data {
