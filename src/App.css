@@ -51,11 +51,13 @@ footer p {
   h1 {
     font-size: 1.6rem;
     margin-bottom: 0%;
+    padding: 0 1em;
   }
 
   h2 {
     font-size: 1.2rem;
     margin-bottom: 1em;
+    padding: 0 1em;
   }  
 
   footer p {
